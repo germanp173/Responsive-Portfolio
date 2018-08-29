@@ -1,0 +1,25 @@
+.row{
+    display:flex;
+}
+
+.image-container {
+    position: relative;
+    width: 300px;    
+}
+
+.image-label {
+    position: absolute;
+    width: 100%;
+    color: white;
+    background: #4aaaa5;
+    text-align: center;
+    bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18pt;
+    text-decoration-line: none;
+}
+
+.image-label:hover{
+    background: #666666;
+}

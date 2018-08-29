@@ -1,0 +1,32 @@
+input {
+    padding: 1%;
+    display: table;
+}
+
+#contact-form * {
+    width: 98%;
+    margin-top: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    font-size: 14pt;
+}
+
+#contact-message {
+    padding: 1%;
+    min-height: 200px;
+    resize: vertical;
+}
+
+#submit-button {
+    margin-top: 20px;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #4aaaa5;
+    color: white;
+}
+
+#submit-button:hover {
+    background: #666666;
+}
