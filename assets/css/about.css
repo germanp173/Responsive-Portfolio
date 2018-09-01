@@ -1,3 +1,11 @@
-.bio-intro {
-    display: flex;
+#bio-pic {
+    padding-right: 20px;
+    float: left;
+}
+
+@media screen and (max-width: 640px){
+    #bio-pic {
+        width: 250px;
+        height: 200px;
+    }
 }

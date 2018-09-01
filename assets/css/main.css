@@ -9,6 +9,7 @@ body {
 
 body {
     background-image: url(../images/ep_naturalwhite.png);
+    padding-bottom: 100px; /* Hack to account for sticky footer (not a modern way of doing this) */
 }
 
 /* END */
@@ -104,6 +105,59 @@ footer {
 footer * {
     color: white;
     font-size: 10pt;
+}
+
+/* End */
+
+/* Media Queries */
+
+@media screen and (max-width: 980px){
+    
+    section, .header-container{
+        width: 760px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    section, .header-container{
+        width: 630px;
+    }
+
+    .content-container{
+        overflow: none;
+    }
+}
+
+@media screen and (max-width: 640px){
+
+    .header-container{
+        width: 100%;
+    }
+    
+    section{
+        width: 500px;
+                    
+    }
+
+    .name{        
+        text-align: center;
+        float: none;        
+    }
+
+    .menu-container{
+        float: none;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    
+    section {
+        width: 350px;
+    }
 }
 
 /* End */
