@@ -1,10 +1,19 @@
-.row{
-    display:flex;
+.row {
+    display: flex;
+}
+
+.pic-divider{
+    width: 20px;
+    height: 15px;
 }
 
 .image-container {
     position: relative;
-    width: 300px;    
+}
+
+.image-container,
+.portfolio-pic {
+    width: 300px;
 }
 
 .image-label {
@@ -20,6 +29,37 @@
     text-decoration-line: none;
 }
 
-.image-label:hover{
+.image-label:hover {
     background: #666666;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .image-container,
+    .portfolio-pic {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .row {
+        display: inline;        
+    }
+
+    .image-container,
+    .portfolio-pic {
+        margin: auto;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+
+    .image-container,
+    .portfolio-pic {
+        width: 250px;
+    }
+}
+
+/* End */
