@@ -114,14 +114,14 @@ footer * {
 @media screen and (max-width: 980px){
     
     section, .header-container{
-        width: 760px;
+        width: 750px;
     }
 }
 
 @media screen and (max-width: 768px){
     
     section, .header-container{
-        width: 630px;
+        width: 620px;
     }
 
     .content-container{
@@ -153,10 +153,16 @@ footer * {
     }
 }
 
-@media screen and (max-width: 510px){
+@media screen and (max-width: 520px){
     
     section {
         width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    section {
+        width: 250px;
     }
 }
 

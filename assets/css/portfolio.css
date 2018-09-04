@@ -54,11 +54,19 @@
     }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 520px) {
 
     .image-container,
     .portfolio-pic {
         width: 250px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .image-container,
+    .portfolio-pic {
+        width: 150px;
     }
 }
 
